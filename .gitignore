@@ -1,3 +1,27 @@
+# Files that start with special characters
+*~
+*#
+
+# Hidden files, except .gitignore
+**/.*
+!.gitignore
+!.babelrc
+
+# Specific file extensions and project files
+**/*.json
+!package.json
+**/*.iml
+**/dump.rdb
+**/lib-cov
+**/*.seed
+**/*.out
+**/*.pid
+**/nbproject
+
+# Dist directory
+dist
+dist/*
+
 # Logs
 logs
 *.log
@@ -53,9 +77,6 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
-
-# dotenv environment variables file
-.env
 
 # next.js build output
 .next
